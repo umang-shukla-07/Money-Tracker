@@ -1,0 +1,34 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.pyc
+
+# Android
+android/.gradle
+android/local.properties
+android/captures/
+android/gradleBuild/
+android/app/build/
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+*.keystore
+*.jks
+
+# Environment & credentials
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Local databases and backups
+ledgerlens.db*
+.ui_repo
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
